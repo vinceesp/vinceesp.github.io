@@ -1,0 +1,60 @@
+body { /* set body font and size to georgia/18px */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer{ /*create background for header/footer and set to aqua color*/
+background-color: aqua;
+}
+
+.site-title{ /*set title to the color salmon, text only */
+    color: salmon;
+}
+
+#my-image{ /*add box shadow to image of me*/
+    box-shadow: 2px 1px black;
+    
+}
+
+.bullet-p{ /* switch hobby bullet points from circle to square*/
+    list-style-type:square;
+}
+
+.hobby:nth-child(odd){/*set every odd item on the hobby list and create red background*/
+    background: red;
+}
+
+.li-nav{ /*remove point form, and underline*/
+    list-style-type:none;
+    text-decoration:none;
+}
+
+a:link{
+    Color:none;
+    text-decoration:none;
+}
+
+a:visited {
+    color:none;
+    text-decoration:none;
+}
+
+a:hover{ /*when mouse is hovered, highlight the link red*/
+    color:red;
+    text-decoration:none;
+}
+
+a:active{
+    color:none;
+    text-decoration:none;
+}
+
+.nav-links{ /*remove all underline on the links. create and set background color to pink.
+    create black border. add 10px of space to the left of th border. set width of the border 100px */
+    list-style-type:none;
+    background-color:pink ;
+    border: 2px solid black;
+    padding-left: 10px;
+    width: 100px;
+
+}
