@@ -5,142 +5,292 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/1e4782ea04.js" crossorigin="anonymous"></script> <!--link to icons/fonts-->
+    <link rel="stylesheet" href="./styles/styles.css"> <!--link to css file-->
 </head>
 
 <body>
-    
-<ul class="nav">
+
+<img src="./assets/images/logo.png" alt="logo"> <!--image logo for nav-->
+
+<div class="nav"> <!-- navigation bar to scroll down through the page and nav class to easily style all nav bars in a group-->
     <a href="#">Home</a>
     <a href="#">About Us</a>
     <a href="#">Services</a>
     <a href="#">Team</a>
-     <a href="#">Contact</a>
- </ul>
+    <a href="#">Contact</a>
+</div>
 
-<form action="">
-    <input type="text" placeholder="Search.." name="search">
-    <button tpye="submit"><i class="fa fa-search"></i></button>
-</form>
+<div class="searchbar"> 
+    <!-- <form action=""> "only if given page" **/-->
+        <input type="text" placeholder="Search.." name="search"> <!--allow user to type inside search bar-->
+        <button tpye="submit"><i class="fa-solid fa-magnifying-glass"></i></button> <!--magnifying glass icon beside the submit button-->
+  <!--  </form> -->
+</div>
+
+<div class="three-star">
     
-    <h1> 
-        Welcome to Three Star Media
-    </h1>
+    <img src="./assets/images/main-banner.jpg" alt="main-banner">
     
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque,
-            recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
-        </p>
+        <h1 class="three-star-header">  <!--allow to set style for this certain header-->
+            Welcome to Three Star Media
+        </h1>
+        
+            <p class="star-content"> <!--allow to set style for this certain paragraph-->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque,
+                recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+            </p>
 
-            <h2> 
-                Connect with us
-            </h2>
+                <h2 class="connect"> 
+                    Connect with us <i class="fa-sharp fa-solid fa-play fa-xs"></i> <!--arrow icon for the soon-to-be button-->
+                </h2>
+</div>
 
-    <h1> 
-        About us
-    </h1>
+<div class="about">
+        
+        <h1 class="main-header"> <!--allow easier styling for same repeated header-->
+            About us
+        </h1>
+    
+            <p class="about-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero unde repellendus
+                exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam 
+                consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?
+            </p>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero unde repellendus
-            exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam 
-            consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?
-        </p>
+            <p class="about-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo 
+                commodi quidem, non perferendis vel sed facilis rerum cum in exercitationem?
+            </p>
+</div>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo 
-            commodi quidem, non perferendis vel sed facilis rerum cum in exercitationem?
-        </p>
+<div class="service">
+    
+    <div class="service-box">
+        
+        <h1 class="main-header">
+            Our Services
+        </h1>
 
-<h1>
-    Our Services
-</h1>
-
-    <h1>
-        Digital Transformation
-    </h1>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora
-            animi molitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
-            quaerat deleniti explicabo nisi?
-        </p>
-            <h2>
-                Digital Plans
-            </h2>
+        <h1 class="service-header">
+            Digital Transformation
+        </h1>
             
+            <img src="./assets/images/digital.jpg" alt="digital">
+                
+                <p class="service-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora
+                    animi molitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
+                    quaerat deleniti explicabo nisi?
+                </p>
+                    
+                    <h2 class="service-button">
+                        Digital Plans <i class="fa-sharp fa-solid fa-play fa-xs"></i>
+                    </h2>
+    </div>
+            
+    <div class="service-box"> 
         
-    <h1>
-       Marketing
-    </h1>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora
-            animi molitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
-            quaerat deleniti explicabo nisi?
-         </p>
-            <h2>
-                Marketing Plans
-            </h2>
+        <h1 class="service-header">
+        Marketing
+        </h1>
+            
+            <img src="./assets/images/marketing.jpg" alt="marketing">
+                
+                <p class="service-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora
+                    animi molitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
+                    quaerat deleniti explicabo nisi?
+                </p>
+                    
+                    <h2 class="service-button">
+                        Marketing Plans <i class="fa-sharp fa-solid fa-play fa-xs"></i>
+                    </h2>
+    </div>
+    
+    <div class="service-box">
         
-    <h1>
-        Video Production
-    </h1>
+        <h1 class="service-header">
+            Video Production
+        </h1>
+            
+            <img src="./assets/images/video.jpg" alt="video">
+                
+                <p class="serivice-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora
+                    animi molitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
+                    quaerat deleniti explicabo nisi?
+                </p>
+                    
+                    <h2 class="service-button">
+                        Video Plans <i class="fa-sharp fa-solid fa-play fa-xs"></i>
+                    </h2>
+    </div>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora
-            animi molitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
-            quaerat deleniti explicabo nisi?
-        </p>
-            <h2>
-                Video Plans
-            </h2>
-
-    <h1>
-        Web Development
-    </h1>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora
-            animi molitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
-            quaerat deleniti explicabo nisi?
-        </p>
-            <h2>
-                Web Plans
-            </h2>
-
-    <h1>
-        Print
-    </h1>
+    <div class="service-box">
         
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora
-            animi molitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
-            quaerat deleniti explicabo nisi?
-        </p>
-            <h2>
-                Print Plans 
+        <h1 class="service-header">
+            Web Development
+        </h1>
+            
+            <img src="./assets/images/web.jpg" alt="web">
+                
+                <p class="service-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora
+                    animi molitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
+                    quaerat deleniti explicabo nisi?
+                </p>
+                    
+                    <h2 class="service-button">
+                        Web Plans <i class="fa-sharp fa-solid fa-play fa-xs"></i>
+                    </h2>
+    </div>
+
+    <div class="service-box">
+        
+        <h1 class=service-header>
+            Print
+        </h1>
+            
+            <img src="./assets/images/print.jpg" alt="print">
+                
+                <p class="serice-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel, rem inventore quo tempora
+                    animi molitia eaque error qui consectetur in reprehenderit magnam at vitae corporis 
+                    quaerat deleniti explicabo nisi?
+                </p>
+                    
+                    <h2 class="service-button">
+                        Print Plans <i class="fa-sharp fa-solid fa-play fa-xs"></i>
+                    </h2>
+    </div>
+</div>
+
+<div class="vision">
+    
+    <h1 class="vision-header">
+        Our Vision
+    </h1>
+        <img src="./assets/images/vision.jpg" alt="vision">
+            <p class="vision-p">
+                Lorem ipsum dolor sit, amet consecteur adipisicing elit. Ex voluptatem deleniti iure, sit, accusantium
+                rerum est commodi veniam tempora perspiciatis nobis officiis fugiat eaque. Veritatis exercitationem
+                delectus ex ab laudantium.
+            </p>
+                <h2 class="vision-button">
+                    Learn More <i class="fa-sharp fa-solid fa-play fa-xs"></i>
+                </h2>
+</div>
+
+<div class="team">
+    
+    <img src="./assets/images/john.jpg" alt="john">
+    
+    <img src="./assets/images/bob.jpg" alt="bob">
+    
+    <h1 class="main-header">
+        Our Team
+    </h1>
+    
+        <h1 class="name">
+            John Doe
+        </h1>
+            
+            <h2 class="position">
+                CEO and Co-owner
             </h2>
+                
+                <p class="team-p">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, aspernatur
+                    ratione sed cum ad officiis sint cumque fugiat similique. Earum laudantium 
+                    deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
+                </p>
+    
+        <h1 class="name">
+            Bob Rite
+        </h1>
+            
+            <h2 class="position">
+                CFO and Co-owner
+            </h2>
+                
+                <p class="team-p">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, aspernatur
+                    ratione sed cum ad officiis sint cumque fugiat similique. Earum laudantium 
+                    deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
+                </p>
+</div>
 
-<h1>
-    Our Vision
-</h1>
+<div class="contact">
+    
+    <h1 class="main-header">
+        Contact Us
+    </h1>
 
-    <p>
-        Lorem ipsum dolor sit, amet consecteur adipisicing elit. Ex voluptatem deleniti iure, sit, accusantium
-        rerum est commodi veniam tempora perspiciatis nobis officiis fugiat eaque. Veritatis exercitationem
-        delectus ex ab laudantium.
-    </p>
-        <h2>
-            Learn More
+        <h2 class="contact-header">
+            Send us a message
         </h2>
 
-<h1>
-    Our Team
-</h1>
+        <div class="form-box">
+            
+            <form class="contact-form"> <!--insert contact inside form box-->
+            
+                <label class="text-lables" for="name">Full Name</label><br>
+                <input class="text-fields" type="text" id="name" name="name"><br> 
 
+                <label class="text-lables" for="email">Email</label><br>
+                <input class="text-fields" type="text" id="email" name="email"><br>
+
+                <label class="text-lables" for="name">Message</label><br>
+                <input class="text-message" type="text" id="message" name="message"><br>
+
+                <input class="send-button" type="submit" value="SEND"> <!--Send button to send contact info-->
+            
+            </form>
+        
+        </div>
+
+    <h2 class="location-header">
+        Location
+    </h2>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.94455180453!2d-75.75712548421906!3d45.34993154908148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680868640985!5m2!1sen!2sca" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> <!--embed map link to Algonquin-->
+        </iframe>
+
+    <h2 class="contact-header">
+        Hours of Operation
+    </h2>
+    
+        <table> <!--create scheduling table-->
+            <tr>
+                <th>Days</th>
+                <th>Hours</th>
+            </tr>
+            
+            <tr>
+                <td>Monday - Friday</td>
+                <td>9AM - 6PM</td>
+    
+            </tr>
+            
+            <tr>
+                <td>Saturday - Sunday</td>
+                <td> Closed</td>
+            </tr>
+            
+        </table>
+
+<footer>
+    <p>
+        <i class="fa-regular fa-copyright"></i> Copyright Three Star Media,2020 <br> All images are taken from <u>Unsplash</u> <!-- copyright icon beside copy and date, underline the word unsplash-->
+    </p>
+</footer>
+
+</div>
 
 </body>
 </html>
